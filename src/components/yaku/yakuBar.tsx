@@ -1,14 +1,5 @@
 import React from 'react';
 
-import { YakuHeader } from './YakuHeader';
-import { YakuMain } from './YakuMain';
-const yakuBar = () => {
-  return (
-    <div>
-      <YakuHeader />
-      <YakuMain />
-    </div>
-  );
+export const YakuBar = () => {
+  return <div>yakuBar</div>;
 };
-
-export default yakuBar;

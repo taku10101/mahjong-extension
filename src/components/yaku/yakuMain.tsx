@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { YakuBar } from './YakuBar';
 
 export const YakuMain = () => {
   return (
-    <div>yakuMain</div>
-  )
-}
+    <div>
+      <YakuBar />
+    </div>
+  );
+};
