@@ -1,18 +1,19 @@
 import { Tabs, TabList, Tab, TabPanels, TabPanel } from '@chakra-ui/react';
 import React from 'react';
+import { YakuMain } from './yaku/YakuMain';
 
 const tabs = [
   {
     title: 'Home',
-    content: 'Home content',
+    content: <YakuMain />,
   },
   {
     title: 'About',
-    content: 'About content',
+    content: <YakuMain />,
   },
   {
     title: 'Contact',
-    content: 'Contact content',
+    content: <YakuMain />,
   },
 ];
 
@@ -26,11 +27,7 @@ export const Home = () => {
           ))}
         </TabList>
 
-        <TabPanels TabPanels>
-          {tabs.map((tab, index) => (
-            <TabPanel key={index}>{tab.content}</TabPanel>
-          ))}
-        </TabPanels>
+        <TabPanels TabPanels></TabPanels>
       </TabPanels>
     </Tabs>
   );

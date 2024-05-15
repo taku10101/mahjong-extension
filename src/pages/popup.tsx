@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import type { NextPage } from 'next';
 import { ChakraProvider } from '@chakra-ui/react';
-import { Box } from '@chakra-ui/react';
 import { Home } from '../components/Home';
 
 const Popup: NextPage = () => {
