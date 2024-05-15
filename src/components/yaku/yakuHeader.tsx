@@ -1,7 +1,5 @@
-import React from 'react'
+import React from 'react';
 
-export const yakuHeader = () => {
-  return (
-    <div>yakuHeader</div>
-  )
-}
+export const YakuHeader = () => {
+  return <div>yakuHeader</div>;
+};
