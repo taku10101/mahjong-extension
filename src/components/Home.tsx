@@ -1,19 +1,18 @@
 import { Tabs, TabList, Tab, TabPanels, TabPanel } from '@chakra-ui/react';
 import React from 'react';
-import { YakuMain } from './yaku/YakuMain';
 
 const tabs = [
   {
     title: 'Home',
-    content: <YakuMain />,
+    content: 'Home content',
   },
   {
     title: 'About',
-    content: <YakuMain />,
+    content: 'About content',
   },
   {
     title: 'Contact',
-    content: <YakuMain />,
+    content: 'Contact content',
   },
 ];
 
