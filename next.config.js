@@ -9,7 +9,7 @@ const nextConfig = {
     },
   },
   output: "export",
-  assetPrefix: "./", // 画像、cssなどを反映させる
+  assetPrefix: "./",
 };
 
 module.exports = nextConfig;

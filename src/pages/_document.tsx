@@ -1,12 +1,17 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import { UIProvider } from "@yamada-ui/react";
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang='ja'>
       <Head />
+      {/* @ts-ignore */}
       <body>
-        <Main />
-        <NextScript />
+        <UIProvider>
+          <Main />
+          <NextScript />
+          {/* @ts-ignore */}
+        </UIProvider>
       </body>
     </Html>
   );
