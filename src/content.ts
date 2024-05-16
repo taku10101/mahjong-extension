@@ -1,9 +1,9 @@
-document.addEventListener('selectionchange', () => {
-  const selection = document.getSelection();
-  if (!selection) return;
+// document.addEventListener('selectionchange', () => {
+//   const selection = document.getSelection();
+//   if (!selection) return;
 
-  const selectionString = selection.toString();
-  chrome.storage.local.set({ selectionString });
-});
+//   const selectionString = selection.toString();
+//   chrome.storage.local.set({ selectionString });
+// });
 
 export {};

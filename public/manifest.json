@@ -1,8 +1,8 @@
 {
-  "name": "National dictionary",
+  "name": "Mahjong Role List for Jantama",
   "version": "1.0.0",
   "manifest_version": 3,
-  "description": "Look up the National dictionary",
+  "description": "Mahjong Role List for Jantama",
   "background": {
     "service_worker": "background.js"
   },

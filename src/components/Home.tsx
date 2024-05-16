@@ -26,7 +26,11 @@ export const Home = () => {
           ))}
         </TabList>
 
-        <TabPanels TabPanels></TabPanels>
+        <TabPanels TabPanels>
+          {tabs.map((tab, index) => (
+            <TabPanel key={index}>{tab.content}</TabPanel>
+          ))}
+        </TabPanels>
       </TabPanels>
     </Tabs>
   );
