@@ -3,6 +3,35 @@ import styled from "styled-components";
 import { Tabs, Tab, TabPanel } from "@yamada-ui/react";
 import YakuList from "../components/YakuList";
 
+function App() {
+  const tabHeader = [
+    "一飜役",
+    "二飜役",
+    "三飜役",
+    "六飜役",
+    "満貫",
+    "役満",
+    "ダブル役満",
+    "流局",
+  ];
+
+  return (
+    <AppContainer>
+      <Tabs>
+        {tabHeader.map((header, index) => (
+          <Tab key={index} label={header}>
+            <TabPanel>
+              <YakuList index={index} />
+            </TabPanel>
+          </Tab>
+        ))}
+      </Tabs>
+    </AppContainer>
+  );
+}
+
+export default App;
+
 const AppContainer = styled.div`
   background-color: #0b0f20;
   color: white;
@@ -11,43 +40,3 @@ const AppContainer = styled.div`
   width: 750px;
   overflow: auto;
 `;
-function App() {
-  return (
-    <AppContainer>
-      <Tabs>
-        <Tab>一飜役</Tab>
-        <Tab>二飜役</Tab>
-        <Tab>三飜役</Tab>
-        <Tab>六飜役</Tab>
-        <Tab>満貫</Tab>
-        <Tab>役満</Tab>
-        <Tab>ダブル役満</Tab>
-        <Tab>流局</Tab>
-
-        <TabPanel>
-          <YakuList category={0} />
-        </TabPanel>
-        <TabPanel>
-          <YakuList category={1} />
-        </TabPanel>
-        <TabPanel>
-          <YakuList category={2} />
-        </TabPanel>
-        <TabPanel>
-          <YakuList category={3} />
-        </TabPanel>
-        <TabPanel>
-          <YakuList category={4} />
-        </TabPanel>
-        <TabPanel>
-          <YakuList category={5} />
-        </TabPanel>
-        <TabPanel>
-          <YakuList category={6} />
-        </TabPanel>
-      </Tabs>
-    </AppContainer>
-  );
-}
-
-export default App;

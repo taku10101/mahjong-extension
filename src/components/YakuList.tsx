@@ -29,11 +29,11 @@ const TileRow = styled.div`
 `;
 
 interface YakuListProps {
-  category: number;
+  index: number;
 }
 
-const YakuList: React.FC<YakuListProps> = ({ category }) => {
-  const yakuList = yakuData[category] || [];
+const YakuList: React.FC<YakuListProps> = ({ index }) => {
+  const yakuList = yakuData[index] || [];
 
   return (
     <YakuContainer>
