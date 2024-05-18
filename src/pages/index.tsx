@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Tabs, Tab, TabPanel } from "@yamada-ui/react";
 import YakuList from "../components/YakuList";
 
-function App() {
+function Index() {
   const tabHeader = [
     "一飜役",
     "二飜役",
@@ -30,7 +30,7 @@ function App() {
   );
 }
 
-export default App;
+export default Index;
 
 const AppContainer = styled.div`
   background-color: #0b0f20;

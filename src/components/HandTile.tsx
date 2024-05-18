@@ -1,6 +1,19 @@
 import React from "react";
 import styled from "styled-components";
 
+interface HandTileProps {
+  tile: string;
+}
+
+const HandTile: React.FC<HandTileProps> = ({ tile }) => {
+  return (
+    <TileContainer>
+      <Sp>{tile}</Sp>
+    </TileContainer>
+  );
+};
+
+export default HandTile;
 const TileContainer = styled.div`
   width: 40px;
   height: 60px;
@@ -14,12 +27,6 @@ const TileContainer = styled.div`
   color: black;
 `;
 
-interface HandTileProps {
-  tile: string;
-}
-
-const HandTile: React.FC<HandTileProps> = ({ tile }) => {
-  return <TileContainer>{tile}</TileContainer>;
-};
-
-export default HandTile;
+const Sp = styled.p`
+  font-size: 20px;
+`;
