@@ -6,10 +6,11 @@ import YakuList from "../components/YakuList";
 const AppContainer = styled.div`
   background-color: #0b0f20;
   color: white;
-  min-height: 100vh;
+  height: 400px;
   padding: 20px;
+  width: 750px;
+  overflow: auto; // 追加
 `;
-
 function App() {
   return (
     <AppContainer>
@@ -28,6 +29,21 @@ function App() {
         </TabPanel>
         <TabPanel>
           <YakuList category={2} />
+        </TabPanel>
+        <TabPanel>
+          <YakuList category={3} />
+        </TabPanel>
+        <TabPanel>
+          <YakuList category={4} />
+        </TabPanel>
+        <TabPanel>
+          <YakuList category={5} />
+        </TabPanel>
+        <TabPanel>
+          <YakuList category={6} />
+        </TabPanel>
+        <TabPanel>
+          <YakuList category={7} />
         </TabPanel>
       </Tabs>
     </AppContainer>

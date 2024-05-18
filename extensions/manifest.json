@@ -1,17 +1,12 @@
 {
-  "name": "タイトル",
   "manifest_version": 3,
+  "name": "Mahjong Yaku Viewer",
   "version": "1.0",
-  "description": "説明",
-
+  "description": "A Chrome extension to view Mahjong hands.",
   "action": {
     "default_popup": "./dist/index.html"
-  },
 
-  "web_accessible_resources": [
-    {
-      "resources": ["img/*"],
-      "matches": ["http://127.0.0.1:3000/*", "http://127.0.0.1:8000/*"]
-    }
-  ]
+  },
+  "permissions": []
+
 }
