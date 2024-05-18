@@ -8,7 +8,10 @@ const nextConfig = {
       unoptimized: true, // Imageタグをexport可能にする
     },
   },
-  output: "export",
+  output: {
+    filename: "[name].js",
+    publicPath: "/",
+  },
   assetPrefix: "./",
 };
 
