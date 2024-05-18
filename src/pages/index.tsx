@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { Tabs, Tab, TabPanel } from "@yamada-ui/react";
 import YakuList from "../components/YakuList";
-import { SwitchClosed } from "../components/SwitchClosed";
 
 const AppContainer = styled.div`
   background-color: #0b0f20;
@@ -10,7 +9,7 @@ const AppContainer = styled.div`
   height: 400px;
   padding: 20px;
   width: 750px;
-  overflow: auto; // 追加
+  overflow: auto;
 `;
 function App() {
   return (
@@ -47,7 +46,6 @@ function App() {
           <YakuList category={6} />
         </TabPanel>
       </Tabs>
-      <SwitchClosed />
     </AppContainer>
   );
 }
