@@ -2,13 +2,13 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  distDir: "extensions/dist",
   experimental: {
     images: {
-      unoptimized: true, // Imageタグをexport可能にする
+      unoptimized: true,
     },
   },
-  assetPrefix: "./",
+
+  assetPrefix: "",
 };
 
 module.exports = nextConfig;
