@@ -1,64 +1,295 @@
-import { paiData } from "./pai";
-export interface Yaku {
-  title: string;
-  description: string;
-  tiles: string[];
-}
+import { pai_str_data } from "./pai"
 
+type tileType<N extends number, T> = T[] & { length: N }
+
+export type Yaku = {
+  title: string
+  description: string
+  tiles: tileType<14, string> // 14個で固定したい
+}
 export const yakuData: { [key: string]: Yaku[] } = {
   0: [
     {
       title: "立直 (リーチ)",
-      description: "門前清の状態で聴牌していると立直をかけることができ...",
-      tiles: [paiData.Manzu_one, "二萬", "三萬", "四筒", "五筒", "六筒"],
-    },
-  ],
-  1: [
-    {
-      title: "断么九 (タンヤオ)",
-      description: "么九牌（1, 9 字牌）を使わずに和了した場合に成立する...",
+      description: "門前清の状態で聴牌していると立直をかけることができる",
       tiles: [
-        "二萬",
-        "三萬",
-        "四萬",
-        "五萬",
-        "六萬",
-        "七萬",
-        "二筒",
-        "三筒",
-        "四筒",
-        "五筒",
-        "六筒",
-        "七筒",
-        "二索",
-      ],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.manzu[7],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[4],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1]
+      ]
     },
-  ],
-  5: [
     {
-      title: "国士無双",
-      description: "国士無双は、13種類の待ちがある特殊な形の和了です...",
+      title: "断么(タンヤオ)",
+      description: "一九牌字牌を使わずに和了すること",
       tiles: [
-        "東",
-        "南",
-        "南",
-        "西",
-        "北",
-        "白",
-        "發",
-        "中",
-        "一萬",
-        "九萬",
-        "一筒",
-        "九筒",
-        "一索",
-        "九索",
-      ],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.manzu[7],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[4],
+        pai_str_data.pinzu[5],
+        pai_str_data.pinzu[6],
+        pai_str_data.pinzu[7],
+        pai_str_data.souzu[2],
+        pai_str_data.souzu[3]
+      ]
     },
     {
-      title: "緑一色",
-      description: "緑一色は、緑色の牌のみで和了することができる役です...",
-      tiles: ["二索", "三索", "四索", "六索", "八索", "發", "發", "發"],
+      title: "門前清自摸和(ツモ)",
+      description: "自分でツモ和了すること",
+      tiles: [
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.manzu[7],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[4],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1]
+      ]
     },
-  ],
-};
+    {
+      title: "役牌：自風牌",
+      description: "自分位置と同じ風牌で和了すること",
+      tiles: [
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.manzu[7],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1],
+        pai_str_data.honor[2],
+        pai_str_data.honor[2]
+      ]
+    },
+    {
+      title: "役牌：場風牌",
+      description: "場風牌で和了すること",
+      tiles: [
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.manzu[7],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1],
+        pai_str_data.honor[2],
+        pai_str_data.honor[2]
+      ]
+    },
+    {
+      title: "役牌：三元牌",
+      description: "白、發、中いずれかの刻子もしくは槓子で和了すること",
+      tiles: [
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.manzu[7],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1],
+        pai_str_data.honor[2],
+        pai_str_data.honor[2]
+      ]
+    },
+    {
+      title: "平和",
+      description:
+        "順子を四つ作り、雀頭は役牌以外で和了し、最後の順子が両面待ちで和了すること",
+      tiles: [
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.manzu[7],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[4],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1]
+      ]
+    },
+
+    {
+      title: "一盃口(イーペーコウ)",
+      description: "同種同数の順子が二組あること",
+      tiles: [
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.manzu[7],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[4],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1]
+      ]
+    },
+    {
+      title: "嶺上開花(リンシャンカイホウ)",
+      description: "山から引いた牌で和了すること",
+      tiles: [
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.manzu[7],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[4],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1]
+      ]
+    },
+    {
+      title: "海底摸月(ハイテイモツイ)",
+      description: "最後の牌をツモ和了すること",
+      tiles: [
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.manzu[7],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[4],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1]
+      ]
+    },
+    {
+      title: "河底撈魚(ホウテイ)",
+      description: "最後の牌をロン和了すること",
+      tiles: [
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.manzu[7],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[4],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1]
+      ]
+    },
+    {
+      title: "一発",
+      description: "立直をかけた後、誰の鳴きもなく一巡目で和了すること",
+      tiles: [
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.manzu[7],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[4],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1]
+      ]
+    },
+    {
+      title: "ローカル役：槓振り(カンブリ)",
+      description: "槓をした直後の打牌で和了すること",
+      tiles: [
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.manzu[7],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[4],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1]
+      ]
+    },
+    {
+      title: "ローカル役：十二落抬(シーアルロウタイ)",
+      description: "槓をした直後の打牌で和了すること",
+      tiles: [
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.manzu[7],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[4],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1]
+      ]
+    }
+  ]
+}
