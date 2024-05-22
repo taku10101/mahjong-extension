@@ -598,7 +598,7 @@ export const yakuData: { [key: string]: Yaku[] } = {
       ]
     }
   ],
-  6: [
+  4: [
     {
       title: "清一色(チンイーソー)",
       description: "萬子、筒子、索子のどれか一種類のみで和了すること",
@@ -611,7 +611,7 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_str_data.manzu[6],
         pai_str_data.manzu[7],
         pai_str_data.manzu[8],
-        pai_str_data.manzu[9],
+        pai_str_data.manzu[8],
         pai_str_data.manzu[1],
         pai_str_data.manzu[2],
         pai_str_data.manzu[3],
@@ -620,7 +620,7 @@ export const yakuData: { [key: string]: Yaku[] } = {
       ]
     }
   ],
-  8: [
+  5: [
     {
       title: "流し満貫(ナガシマンカン)",
       description:
@@ -634,7 +634,7 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_str_data.manzu[6],
         pai_str_data.manzu[7],
         pai_str_data.manzu[8],
-        pai_str_data.manzu[9],
+        pai_str_data.manzu[8],
         pai_str_data.manzu[1],
         pai_str_data.manzu[2],
         pai_str_data.manzu[3],
@@ -654,7 +654,7 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_str_data.manzu[6],
         pai_str_data.manzu[7],
         pai_str_data.manzu[8],
-        pai_str_data.manzu[9],
+        pai_str_data.manzu[8],
         pai_str_data.manzu[1],
         pai_str_data.manzu[2],
         pai_str_data.manzu[3],
@@ -674,7 +674,7 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_str_data.manzu[6],
         pai_str_data.manzu[7],
         pai_str_data.manzu[8],
-        pai_str_data.manzu[9],
+        pai_str_data.manzu[8],
         pai_str_data.manzu[1],
         pai_str_data.manzu[2],
         pai_str_data.manzu[3],
@@ -683,7 +683,7 @@ export const yakuData: { [key: string]: Yaku[] } = {
       ]
     }
   ],
-  10: [
+  6: [
     {
       title: "天和(テンホウ)",
       description: "親の最初の配牌時点で和了すること",
@@ -937,7 +937,7 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_str_data.manzu[6],
         pai_str_data.manzu[7],
         pai_str_data.manzu[8],
-        pai_str_data.manzu[9],
+        pai_str_data.manzu[8],
         pai_str_data.pinzu[1],
         pai_str_data.pinzu[2],
         pai_str_data.pinzu[3],
@@ -957,7 +957,7 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_str_data.manzu[6],
         pai_str_data.manzu[7],
         pai_str_data.manzu[8],
-        pai_str_data.manzu[9],
+        pai_str_data.manzu[8],
         pai_str_data.souzu[1],
         pai_str_data.souzu[2],
         pai_str_data.souzu[3],
@@ -977,7 +977,7 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_str_data.manzu[6],
         pai_str_data.manzu[7],
         pai_str_data.manzu[8],
-        pai_str_data.manzu[9],
+        pai_str_data.manzu[8],
         pai_str_data.manzu[1],
         pai_str_data.manzu[2],
         pai_str_data.manzu[3],
@@ -1007,7 +1007,7 @@ export const yakuData: { [key: string]: Yaku[] } = {
       ]
     }
   ],
-  20: [
+  7: [
     {
       title: "四暗刻単騎(スーアンコウタンキ)",
       description: "四暗刻を単騎待ちで和了すること",
@@ -1109,7 +1109,7 @@ export const yakuData: { [key: string]: Yaku[] } = {
       ]
     }
   ],
-  0: [
+  8: [
     {
       title: "四風連打(スーフーレンダ)",
       description:
