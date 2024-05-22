@@ -1007,6 +1007,107 @@ export const yakuData: { [key: string]: Yaku[] } = {
       ]
     }
   ],
-  20: [],
+  20: [
+    {
+      title: "四暗刻単騎(スーアンコウタンキ)",
+      description: "四暗刻を単騎待ちで和了すること",
+      tiles: [
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.pinzu[1],
+        pai_str_data.pinzu[1],
+        pai_str_data.pinzu[1],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0]
+      ]
+    },
+    {
+      title: "国士無双十三面(コクシムソージュウサンメン)",
+      description: "国士無双の13面待ちで和了すること",
+      tiles: [
+        pai_str_data.manzu[0],
+        pai_str_data.manzu[0],
+        pai_str_data.manzu[0],
+        pai_str_data.manzu[8],
+        pai_str_data.manzu[8],
+        pai_str_data.manzu[8],
+        pai_str_data.pinzu[0],
+        pai_str_data.pinzu[0],
+        pai_str_data.pinzu[0],
+        pai_str_data.souzu[0],
+        pai_str_data.souzu[0],
+        pai_str_data.souzu[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0]
+      ]
+    },
+    {
+      title: "純正九蓮宝燈(ジュンショウチューレンポウトウ)",
+      description: "九蓮宝燈の13面待ちで和了すること",
+      tiles: [
+        pai_str_data.manzu[0],
+        pai_str_data.manzu[0],
+        pai_str_data.manzu[0],
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.manzu[7],
+        pai_str_data.manzu[8],
+        pai_str_data.manzu[8],
+        pai_str_data.manzu[8],
+        pai_str_data.manzu[8]
+      ]
+    },
+    {
+      title: "大四喜(ダイシー)",
+      description: "東西南北の刻子(槓子)を作り和了すること",
+      tiles: [
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.pinzu[1],
+        pai_str_data.pinzu[1],
+        pai_str_data.pinzu[1],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0]
+      ]
+    },
+    {
+      title: "ローカル役:大七星(ダイシチセイ)",
+      description: "字牌七種全てで刻子(槓子)を作り和了すること",
+      tiles: [
+        pai_str_data.honor[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1],
+        pai_str_data.honor[2],
+        pai_str_data.honor[2],
+        pai_str_data.honor[2],
+        pai_str_data.honor[3],
+        pai_str_data.honor[3],
+        pai_str_data.honor[3],
+        pai_str_data.honor[4],
+        pai_str_data.honor[4]
+      ]
+    }
+  ],
   0: []
 }
