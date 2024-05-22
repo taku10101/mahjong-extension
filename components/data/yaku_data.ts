@@ -697,9 +697,9 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_str_data.manzu[5],
         pai_str_data.manzu[6],
         pai_str_data.manzu[7],
-        pai_str_data.manzu[9],
-        pai_str_data.manzu[9],
-        pai_str_data.manzu[9],
+        pai_str_data.manzu[8],
+        pai_str_data.manzu[8],
+        pai_str_data.manzu[8],
         pai_str_data.manzu[1],
         pai_str_data.manzu[1]
       ]
@@ -719,9 +719,9 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_str_data.manzu[6],
         pai_str_data.manzu[7],
         pai_str_data.manzu[8],
-        pai_str_data.manzu[9],
-        pai_str_data.manzu[9],
-        pai_str_data.manzu[9]
+        pai_str_data.manzu[8],
+        pai_str_data.manzu[8],
+        pai_str_data.manzu[8]
       ]
     },
     {
@@ -900,9 +900,110 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_str_data.manzu[6],
         pai_str_data.manzu[7],
         pai_str_data.manzu[8],
+        pai_str_data.manzu[8],
+        pai_str_data.manzu[8],
+        pai_str_data.manzu[8]
+      ]
+    },
+    {
+      title: "ローカル役;人和(レンホウ)",
+      description: "子が自身の第一ツモ以前にロン完了すること",
+      tiles: [
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.pinzu[1],
+        pai_str_data.pinzu[1],
+        pai_str_data.pinzu[1],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0]
+      ]
+    },
+    {
+      title: "ローカル役:大車輪(ダイシャリン)",
+      description: "門前で2〜8の筒子のみで対子を7組作り和了すること",
+      tiles: [
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.manzu[7],
+        pai_str_data.manzu[8],
         pai_str_data.manzu[9],
+        pai_str_data.pinzu[1],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[4],
+        pai_str_data.pinzu[5]
+      ]
+    },
+    {
+      title: "ローカル役:大竹林(ダイチクリン)",
+      description: "門前で2〜8の索子のみで対子を7組作り和了すること",
+      tiles: [
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.manzu[7],
+        pai_str_data.manzu[8],
         pai_str_data.manzu[9],
-        pai_str_data.manzu[9]
+        pai_str_data.souzu[1],
+        pai_str_data.souzu[2],
+        pai_str_data.souzu[3],
+        pai_str_data.souzu[4],
+        pai_str_data.souzu[5]
+      ]
+    },
+    {
+      title: "ローカル役:大数隣(ダイスーリン)",
+      description: "門前で2〜8の萬子のみで対子を7組作り和了すること",
+      tiles: [
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.manzu[7],
+        pai_str_data.manzu[8],
+        pai_str_data.manzu[9],
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5]
+      ]
+    },
+    {
+      title: "ローカル役:石の上にも三年(イシノウエニモサンネン)",
+      description:
+        "ダブルリーチした状態かつ、海底模月または河底撈魚を複合して和了すること",
+      tiles: [
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.manzu[7],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[4],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1]
       ]
     }
   ],
