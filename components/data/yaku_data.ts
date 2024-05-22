@@ -8,7 +8,7 @@ export type Yaku = {
   tiles: tileType<14, string> // 14個で固定したい
 }
 export const yakuData: { [key: string]: Yaku[] } = {
-  1: [
+  0: [
     {
       title: "立直 (リーチ)",
       description: "門前清の状態で聴牌していると立直をかけることができる",
@@ -292,7 +292,7 @@ export const yakuData: { [key: string]: Yaku[] } = {
       ]
     }
   ],
-  2: [
+  1: [
     {
       title: "ダブル立直(ダブルリーチ)",
       description:
@@ -516,7 +516,7 @@ export const yakuData: { [key: string]: Yaku[] } = {
       ]
     }
   ],
-  3: [
+  2: [
     {
       title: "二盃口(リャンペーコウ)",
       description: "同種同数の順子が二組あること",
@@ -598,7 +598,7 @@ export const yakuData: { [key: string]: Yaku[] } = {
       ]
     }
   ],
-  4: [
+  3: [
     {
       title: "清一色(チンイーソー)",
       description: "萬子、筒子、索子のどれか一種類のみで和了すること",
@@ -620,7 +620,7 @@ export const yakuData: { [key: string]: Yaku[] } = {
       ]
     }
   ],
-  5: [
+  4: [
     {
       title: "流し満貫(ナガシマンカン)",
       description:
@@ -683,7 +683,7 @@ export const yakuData: { [key: string]: Yaku[] } = {
       ]
     }
   ],
-  6: [
+  5: [
     {
       title: "天和(テンホウ)",
       description: "親の最初の配牌時点で和了すること",
@@ -1007,7 +1007,7 @@ export const yakuData: { [key: string]: Yaku[] } = {
       ]
     }
   ],
-  7: [
+  6: [
     {
       title: "四暗刻単騎(スーアンコウタンキ)",
       description: "四暗刻を単騎待ちで和了すること",
@@ -1109,7 +1109,7 @@ export const yakuData: { [key: string]: Yaku[] } = {
       ]
     }
   ],
-  8: [
+  7: [
     {
       title: "四風連打(スーフーレンダ)",
       description:
