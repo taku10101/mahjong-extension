@@ -28,7 +28,7 @@ const YakuList: React.FC<YakuListProps> = ({ index }) => {
               justifyContent: "flex-start",
               marginBottom: 10
             }}>
-            {yaku.tiles.map((tile, tileIndex) => (
+            {yaku.tiles.map((tile) => (
               <HandTile key={`${yaku.title}-${tile}`} tile={tile} />
             ))}
           </div>

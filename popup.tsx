@@ -1,13 +1,11 @@
-import { useState } from "react"
-import Index from "./components/Index";
-import { ChakraProvider } from '@chakra-ui/react'
+import { ChakraProvider } from "@chakra-ui/react"
+
+import Index from "./components/Index"
 
 function IndexPopup() {
-  const [data, setData] = useState("")
-
   return (
     <ChakraProvider>
-<Index />
+      <Index />
     </ChakraProvider>
   )
 }
