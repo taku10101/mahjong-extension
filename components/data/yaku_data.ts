@@ -1109,5 +1109,89 @@ export const yakuData: { [key: string]: Yaku[] } = {
       ]
     }
   ],
-  0: []
+  0: [
+    {
+      title: "四風連打(スーフーレンダ)",
+      description:
+        "誰の鳴きも入らずに全てのプレイヤーが最初の打牌で同じ風牌を捨てた場合",
+      tiles: [
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.pinzu[1],
+        pai_str_data.pinzu[1],
+        pai_str_data.pinzu[1],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0]
+      ]
+    },
+    {
+      title: "四槓散了(スーカンナガレ)",
+      description: "複数のプレイヤーにより合計四回以上の槓子が行われた場合",
+      tiles: [
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.pinzu[1],
+        pai_str_data.pinzu[1],
+        pai_str_data.pinzu[1],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0]
+      ]
+    },
+
+    {
+      title: "九種九牌(チューシュクチューハイ)",
+      description:
+        "誰かの鳴きがない状態で親の配牌または子の最初のツモ時点で手牌の中に九種九牌がある場合",
+      tiles: [
+        pai_str_data.manzu[0],
+        pai_str_data.manzu[0],
+        pai_str_data.manzu[0],
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.pinzu[0],
+        pai_str_data.pinzu[0],
+        pai_str_data.pinzu[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0]
+      ]
+    },
+    {
+      title: "四家立直(スーカーリーチ)",
+      description: "全てのプレイヤーが立直を行った場合",
+      tiles: [
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.pinzu[1],
+        pai_str_data.pinzu[1],
+        pai_str_data.pinzu[1],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0]
+      ]
+    }
+  ]
 }
