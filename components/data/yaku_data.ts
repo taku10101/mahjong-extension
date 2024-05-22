@@ -291,5 +291,311 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_str_data.honor[1]
       ]
     }
+  ],
+  1: [
+    {
+      title: "ダブル立直(ダブルリーチ)",
+      description:
+        "立直をかけた後、誰の鳴きもなく自分の一打で立直した状態で和了すること",
+      tiles: [
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.manzu[7],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[4],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1]
+      ]
+    },
+    {
+      title: "三色同順(サンショクドウコウ)",
+      description: "萬子、筒子、索子それぞれで同じ数の順子を作ること",
+      tiles: [
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.manzu[7],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[4],
+        pai_str_data.souzu[2],
+        pai_str_data.souzu[3],
+        pai_str_data.souzu[4],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0]
+      ]
+    },
+    {
+      title: "三槓子(サンカンツ)",
+      description: "槓子を三つ作ること",
+      tiles: [
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[4],
+        pai_str_data.souzu[2],
+        pai_str_data.souzu[2],
+        pai_str_data.souzu[2],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0]
+      ]
+    },
+    {
+      title: "対々和(トイトイ)",
+      description: "刻子(槓子)のみで和了すること",
+      tiles: [
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[4],
+        pai_str_data.souzu[2],
+        pai_str_data.souzu[2],
+        pai_str_data.souzu[2],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0]
+      ]
+    },
+    {
+      title: "小三元(ショウサンゲン)",
+      description:
+        "白、發、中のいずれかを雀頭にし、残りを刻子(槓子)で和了すること",
+      tiles: [
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[4],
+        pai_str_data.souzu[2],
+        pai_str_data.souzu[2],
+        pai_str_data.souzu[2],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0]
+      ]
+    },
+    {
+      title: "混老頭(ホンロウトウ)",
+      description: "一九牌のみで和了すること",
+      tiles: [
+        pai_str_data.manzu[0],
+        pai_str_data.manzu[0],
+        pai_str_data.manzu[0],
+        pai_str_data.manzu[8],
+        pai_str_data.manzu[8],
+        pai_str_data.manzu[8],
+        pai_str_data.pinzu[0],
+        pai_str_data.pinzu[0],
+        pai_str_data.pinzu[0],
+        pai_str_data.souzu[0],
+        pai_str_data.souzu[0],
+        pai_str_data.souzu[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0]
+      ]
+    },
+    {
+      title: "七対子(チートイツ)",
+      description: "違う対子を七つ作ること",
+      tiles: [
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[4],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[3],
+        pai_str_data.souzu[2],
+        pai_str_data.souzu[2],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0]
+      ]
+    },
+    {
+      title: "混全帯么九(ホンチャンタイヤオ)",
+      description: "4面子1雀頭が全て么九牌で構成されていること",
+      tiles: [
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.pinzu[1],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[4],
+        pai_str_data.souzu[1],
+        pai_str_data.souzu[2],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0]
+      ]
+    },
+    {
+      title: "一気通貫(イッツーチュークン)",
+      description: "同じ種類の順子で123、456、789を作ること",
+      tiles: [
+        pai_str_data.manzu[0],
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.manzu[7],
+        pai_str_data.manzu[8],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[4],
+        pai_str_data.pinzu[5],
+        pai_str_data.pinzu[5]
+      ]
+    },
+    {
+      title: "三色同刻(サンショクドウコウ)",
+      description: "萬子、筒子、索子それぞれで同じ数の刻子を作ること",
+      tiles: [
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[2],
+        pai_str_data.souzu[2],
+        pai_str_data.souzu[2],
+        pai_str_data.souzu[2],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0]
+      ]
+    },
+    {
+      title: "ローカル役：三連刻(サンレンコウ)",
+      description: "連続する刻子を三つ作ること",
+      tiles: [
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[4],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[2],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0]
+      ]
+    }
+  ],
+  2: [
+    {
+      title: "二盃口(リャンペーコウ)",
+      description: "同種同数の順子が二組あること",
+      tiles: [
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[4],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[3],
+        pai_str_data.souzu[2],
+        pai_str_data.souzu[2],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0]
+      ]
+    },
+    {
+      title: "純全帯么九(ジュンチャンタイヤオ)",
+      description: "4面子1雀頭が全て么九牌で構成されていること",
+      tiles: [
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.pinzu[1],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[4],
+        pai_str_data.souzu[1],
+        pai_str_data.souzu[2],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0]
+      ]
+    },
+    {
+      title: "混一色(ホンイーソー)",
+      description: "萬子、筒子、索子のどれかと字牌のみで和了すること",
+      tiles: [
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[4],
+        pai_str_data.manzu[5],
+        pai_str_data.manzu[6],
+        pai_str_data.pinzu[1],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.pinzu[4],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0],
+        pai_str_data.honor[1],
+        pai_str_data.honor[1]
+      ]
+    },
+    {
+      title: "ローカル役：一色三同順(イーソーサンション)",
+      description: "同じ種類の順子を三つ作ること",
+      tiles: [
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.manzu[1],
+        pai_str_data.manzu[2],
+        pai_str_data.manzu[3],
+        pai_str_data.pinzu[1],
+        pai_str_data.pinzu[2],
+        pai_str_data.pinzu[3],
+        pai_str_data.honor[0],
+        pai_str_data.honor[0]
+      ]
+    }
   ]
 }
