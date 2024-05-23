@@ -18,10 +18,10 @@ const YakuList: React.FC<YakuListProps> = ({ index }) => {
         padding: 20,
         borderRadius: 10
       }}>
-      {yakuList.map((yaku, yakuIndex) => (
+      {yakuList.map((yaku) => (
         <div key={yaku.title} style={{ marginBottom: 20 }}>
-          <div>{yaku.title}</div>
-          <div>{yaku.description}</div>
+          <Sh2>{yaku.title}</Sh2>
+          <Sh3>{yaku.description}</Sh3>
           <div
             style={{
               display: "flex",
@@ -39,3 +39,16 @@ const YakuList: React.FC<YakuListProps> = ({ index }) => {
 }
 
 export default YakuList
+
+const Sh2 = styled.h2`
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #414141;
+  font-weight: bold;
+`
+
+const Sh3 = styled.h3`
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #414141;
+`

@@ -16,10 +16,10 @@ const HandTile: React.FC<HandTileProps> = ({ tile }) => {
         justifyContent: "center",
         alignItems: "center",
         marginRight: 5,
-        fontSize: 18,
-        color: "black"
+        marginLeft: 5,
+        paddingLeft: 5
       }}>
-      <p style={{ fontSize: "20px", margin: "0 auto" }}>{tile}</p>
+      <p style={{ fontSize: "20px", color: "#414141" }}>{tile}</p>
     </div>
   )
 }
