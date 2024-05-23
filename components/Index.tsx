@@ -43,6 +43,6 @@ const AppContainer = styled.div`
   color: white;
   height: 400px;
   padding: 20px;
-  width: 750px;
+  width: 780px;
   overflow: auto;
 `

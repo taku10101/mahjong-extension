@@ -8,18 +8,19 @@ const HandTile: React.FC<HandTileProps> = ({ tile }) => {
   return (
     <div
       style={{
-        width: 40,
+        width: 60,
         height: 60,
         backgroundColor: "white",
         border: "1px solid #ddd",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        marginRight: 5,
+        paddingRight: 5,
+        paddingBottom: 8,
         marginLeft: 5,
         paddingLeft: 5
       }}>
-      <p style={{ fontSize: "20px", color: "#414141" }}>{tile}</p>
+      <p style={{ fontSize: "38px", color: "#414141" }}>{tile}</p>
     </div>
   )
 }
