@@ -5,7 +5,8 @@ type tileType<N extends number, T> = T[] & { length: N }
 export type Yaku = {
   title: string
   description: string
-  tiles?: tileType<14, string> // 14個で固定したい
+  tiles?: tileType<14, string>
+  option?: string
 }
 export const yakuData: { [key: string]: Yaku[] } = {
   0: [
@@ -1083,6 +1084,3 @@ export const yakuData: { [key: string]: Yaku[] } = {
     }
   ]
 }
-
-//todo
-//役満　ダブル役満

@@ -21,7 +21,13 @@ function Index() {
       <Tabs>
         <TabList>
           {tabHeader.map((header) => (
-            <Tab key={header}>{header}</Tab>
+            <Tab
+              sx={{
+                fontSize: "18px"
+              }}
+              key={header}>
+              {header}
+            </Tab>
           ))}
         </TabList>
         <TabPanels>
@@ -39,7 +45,7 @@ function Index() {
 export default Index
 
 const AppContainer = styled.div`
-  background-color: #0b0f20;
+  background-color: #06070a;
   color: white;
   height: 400px;
   padding: 20px;

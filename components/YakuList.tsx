@@ -21,7 +21,15 @@ const YakuList: React.FC<YakuListProps> = ({ index }) => {
       {yakuList.map((yaku) => (
         <div key={yaku.title} style={{ marginBottom: 20 }}>
           <Sh2>{yaku.title}</Sh2>
-          <Sh3>{yaku.description}</Sh3>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between"
+            }}>
+            <Sh3>{yaku.description}</Sh3>
+            <Sh3>{yaku.option}</Sh3>
+          </div>
+
           <div
             style={{
               display: "flex",
