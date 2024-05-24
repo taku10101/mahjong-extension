@@ -360,24 +360,24 @@ export const yakuData: { [key: string]: Yaku[] } = {
       tiles: [
         pai_ask_data.manzu[2],
         pai_ask_data.manzu[2],
-        pai_ask_data.manzu[2],
         pai_ask_data.manzu[3],
         pai_ask_data.manzu[3],
-        pai_ask_data.manzu[3],
+        pai_ask_data.manzu[4],
+        pai_ask_data.manzu[4],
         pai_ask_data.pinzu[2],
-        pai_ask_data.pinzu[3],
-        pai_ask_data.pinzu[4],
+        pai_ask_data.pinzu[2],
+        pai_ask_data.pinzu[5],
+        pai_ask_data.pinzu[5],
         pai_ask_data.souzu[2],
         pai_ask_data.souzu[2],
-        pai_ask_data.souzu[2],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[0]
+        pai_ask_data.honor[5],
+        pai_ask_data.honor[5]
       ]
     },
     {
       title: "小三元(ショウサンゲン)",
       description:
-        "白、發、中のいずれかを雀頭にし、残りを刻子(槓子)で和了すること",
+        "白、發、中のいずれかを雀頭にし、残り二つを刻子もしくは槓子で和了すること",
       tiles: [
         pai_ask_data.manzu[2],
         pai_ask_data.manzu[2],
@@ -385,14 +385,14 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.manzu[3],
         pai_ask_data.manzu[3],
         pai_ask_data.manzu[3],
-        pai_ask_data.pinzu[2],
-        pai_ask_data.pinzu[3],
-        pai_ask_data.pinzu[4],
-        pai_ask_data.souzu[2],
-        pai_ask_data.souzu[2],
-        pai_ask_data.souzu[2],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[0]
+        pai_ask_data.honor[4],
+        pai_ask_data.honor[4],
+        pai_ask_data.honor[4],
+        pai_ask_data.honor[5],
+        pai_ask_data.honor[5],
+        pai_ask_data.honor[6],
+        pai_ask_data.honor[6],
+        pai_ask_data.honor[6]
       ]
     },
     {
@@ -411,8 +411,8 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.souzu[0],
         pai_ask_data.souzu[0],
         pai_ask_data.souzu[0],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[0]
+        pai_ask_data.honor[2],
+        pai_ask_data.honor[2]
       ]
     },
     {
@@ -431,8 +431,8 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.pinzu[3],
         pai_ask_data.souzu[2],
         pai_ask_data.souzu[2],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[0]
+        pai_ask_data.honor[2],
+        pai_ask_data.honor[2]
       ]
     },
     {
@@ -448,11 +448,11 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.pinzu[1],
         pai_ask_data.pinzu[2],
         pai_ask_data.pinzu[3],
-        pai_ask_data.pinzu[4],
         pai_ask_data.souzu[1],
         pai_ask_data.souzu[2],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[0]
+        pai_ask_data.souzu[3],
+        pai_ask_data.souzu[4],
+        pai_ask_data.souzu[4]
       ]
     },
     {
@@ -491,8 +491,8 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.souzu[2],
         pai_ask_data.souzu[2],
         pai_ask_data.souzu[2],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[0]
+        pai_ask_data.honor[2],
+        pai_ask_data.honor[2]
       ]
     },
     {
@@ -511,8 +511,8 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.pinzu[2],
         pai_ask_data.pinzu[2],
         pai_ask_data.pinzu[2],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[0]
+        pai_ask_data.honor[5],
+        pai_ask_data.honor[5]
       ]
     }
   ],
