@@ -1,12 +1,13 @@
 import { pai_ask_data } from "./pai"
 
 type tileType<N extends number, T> = T[] & { length: N }
+type optionStatus = "面前のみ" | "食い下がり1翻" | "立直のみ" | "ローカルのみ"
 
 export type Yaku = {
   title: string
   description: string
   tiles?: tileType<14, string>
-  option?: string
+  option?: optionStatus
 }
 export const yakuData: { [key: string]: Yaku[] } = {
   0: [
@@ -28,7 +29,8 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.honor[1],
         pai_ask_data.honor[1],
         pai_ask_data.honor[1]
-      ]
+      ],
+      option: "面前のみ"
     },
     {
       title: "断么(タンヤオ)",
@@ -68,7 +70,8 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.honor[1],
         pai_ask_data.honor[1],
         pai_ask_data.honor[1]
-      ]
+      ],
+      option: "面前のみ"
     },
     {
       title: "役牌：自風牌",
@@ -149,7 +152,8 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.manzu[8],
         pai_ask_data.manzu[8],
         pai_ask_data.pinzu[4]
-      ]
+      ],
+      option: "面前のみ"
     },
 
     {
@@ -170,7 +174,8 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.manzu[5],
         pai_ask_data.honor[4],
         pai_ask_data.honor[4]
-      ]
+      ],
+      option: "面前のみ"
     },
     {
       title: "嶺上開花(リンシャンカイホウ)",
@@ -250,7 +255,8 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.manzu[5],
         pai_ask_data.manzu[7],
         pai_ask_data.manzu[7]
-      ]
+      ],
+      option: "立直のみ"
     },
     {
       title: "ローカル役：槓振り(カンブリ)",
@@ -313,7 +319,8 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.honor[1],
         pai_ask_data.honor[1],
         pai_ask_data.honor[1]
-      ]
+      ],
+      option: "面前のみ"
     },
     {
       title: "三色同順(サンショクドウコウ)",
@@ -333,7 +340,8 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.souzu[4],
         pai_ask_data.honor[0],
         pai_ask_data.honor[0]
-      ]
+      ],
+      option: "食い下がり1翻"
     },
     {
       title: "三槓子(サンカンツ)",
@@ -434,7 +442,8 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.souzu[2],
         pai_ask_data.honor[2],
         pai_ask_data.honor[2]
-      ]
+      ],
+      option: "面前のみ"
     },
     {
       title: "混全帯么九(ホンチャンタイヤオ)",
@@ -454,7 +463,8 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.souzu[3],
         pai_ask_data.souzu[4],
         pai_ask_data.souzu[4]
-      ]
+      ],
+      option: "食い下がり1翻"
     },
     {
       title: "一気通貫(イッツーチュークン)",
@@ -474,7 +484,8 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.pinzu[4],
         pai_ask_data.pinzu[5],
         pai_ask_data.pinzu[5]
-      ]
+      ],
+      option: "食い下がり1翻"
     },
     {
       title: "三色同刻(サンショクドウコウ)",
@@ -514,7 +525,8 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.pinzu[2],
         pai_ask_data.honor[5],
         pai_ask_data.honor[5]
-      ]
+      ],
+      option: "ローカルのみ"
     }
   ],
   2: [
