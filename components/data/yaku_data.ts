@@ -960,8 +960,8 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.pinzu[1],
         pai_ask_data.pinzu[1],
         pai_ask_data.pinzu[1],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[0]
+        pai_ask_data.honor[3],
+        pai_ask_data.honor[3]
       ]
     },
     {
@@ -969,19 +969,19 @@ export const yakuData: { [key: string]: Yaku[] } = {
       description: "国士無双の13面待ちで和了すること",
       tiles: [
         pai_ask_data.manzu[0],
-        pai_ask_data.manzu[0],
-        pai_ask_data.manzu[0],
-        pai_ask_data.manzu[8],
-        pai_ask_data.manzu[8],
         pai_ask_data.manzu[8],
         pai_ask_data.pinzu[0],
-        pai_ask_data.pinzu[0],
-        pai_ask_data.pinzu[0],
+        pai_ask_data.pinzu[8],
         pai_ask_data.souzu[0],
-        pai_ask_data.souzu[0],
-        pai_ask_data.souzu[0],
+        pai_ask_data.souzu[8],
         pai_ask_data.honor[0],
-        pai_ask_data.honor[0]
+        pai_ask_data.honor[1],
+        pai_ask_data.honor[2],
+        pai_ask_data.honor[3],
+        pai_ask_data.honor[4],
+        pai_ask_data.honor[5],
+        pai_ask_data.honor[6],
+        pai_ask_data.manzu[0]
       ]
     },
     {
@@ -1001,27 +1001,27 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.manzu[8],
         pai_ask_data.manzu[8],
         pai_ask_data.manzu[8],
-        pai_ask_data.manzu[8]
+        pai_ask_data.manzu[2]
       ]
     },
     {
       title: "大四喜(ダイシー)",
       description: "東西南北の刻子(槓子)を作り和了すること",
       tiles: [
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[3],
-        pai_ask_data.pinzu[1],
-        pai_ask_data.pinzu[1],
-        pai_ask_data.pinzu[1],
         pai_ask_data.honor[0],
-        pai_ask_data.honor[0]
+        pai_ask_data.honor[0],
+        pai_ask_data.honor[0],
+        pai_ask_data.honor[1],
+        pai_ask_data.honor[1],
+        pai_ask_data.honor[1],
+        pai_ask_data.honor[2],
+        pai_ask_data.honor[2],
+        pai_ask_data.honor[2],
+        pai_ask_data.honor[3],
+        pai_ask_data.honor[3],
+        pai_ask_data.honor[3],
+        pai_ask_data.souzu[4],
+        pai_ask_data.souzu[4]
       ]
     },
     {
@@ -1030,18 +1030,18 @@ export const yakuData: { [key: string]: Yaku[] } = {
       tiles: [
         pai_ask_data.honor[0],
         pai_ask_data.honor[0],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[1],
         pai_ask_data.honor[1],
         pai_ask_data.honor[1],
         pai_ask_data.honor[2],
         pai_ask_data.honor[2],
-        pai_ask_data.honor[2],
-        pai_ask_data.honor[3],
         pai_ask_data.honor[3],
         pai_ask_data.honor[3],
         pai_ask_data.honor[4],
-        pai_ask_data.honor[4]
+        pai_ask_data.honor[4],
+        pai_ask_data.honor[5],
+        pai_ask_data.honor[5],
+        pai_ask_data.honor[6],
+        pai_ask_data.honor[6]
       ]
     }
   ],
