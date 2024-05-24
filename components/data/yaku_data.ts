@@ -603,8 +603,11 @@ export const yakuData: { [key: string]: Yaku[] } = {
       title: "清一色(チンイーソー)",
       description: "萬子、筒子、索子のどれか一種類のみで和了すること",
       tiles: [
+        pai_ask_data.manzu[0],
+        pai_ask_data.manzu[0],
         pai_ask_data.manzu[1],
         pai_ask_data.manzu[2],
+        pai_ask_data.manzu[3],
         pai_ask_data.manzu[3],
         pai_ask_data.manzu[4],
         pai_ask_data.manzu[5],
@@ -612,11 +615,8 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.manzu[7],
         pai_ask_data.manzu[8],
         pai_ask_data.manzu[8],
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[4],
-        pai_ask_data.manzu[5]
+        pai_ask_data.manzu[8],
+        pai_ask_data.manzu[8]
       ]
     }
   ],
