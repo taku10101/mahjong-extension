@@ -568,7 +568,8 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.souzu[2],
         pai_ask_data.honor[0],
         pai_ask_data.honor[0]
-      ]
+      ],
+      option: "食い下がり1翻"
     },
     {
       title: "混一色(ホンイーソー)",
@@ -588,7 +589,8 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.honor[0],
         pai_ask_data.honor[1],
         pai_ask_data.honor[1]
-      ]
+      ],
+      option: "食い下がり1翻"
     },
     {
       title: "ローカル役：一色三同順(イーソーサンション)",
@@ -608,7 +610,8 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.pinzu[3],
         pai_ask_data.honor[0],
         pai_ask_data.honor[0]
-      ]
+      ],
+      option: "食い下がり1翻"
     }
   ],
   3: [
