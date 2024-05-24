@@ -5,7 +5,7 @@ type tileType<N extends number, T> = T[] & { length: N }
 export type Yaku = {
   title: string
   description: string
-  tiles: tileType<14, string> // 14個で固定したい
+  tiles?: tileType<14, string> // 14個で固定したい
 }
 export const yakuData: { [key: string]: Yaku[] } = {
   0: [
@@ -1111,48 +1111,6 @@ export const yakuData: { [key: string]: Yaku[] } = {
   ],
   7: [
     {
-      title: "四風連打(スーフーレンダ)",
-      description:
-        "誰の鳴きも入らずに全てのプレイヤーが最初の打牌で同じ風牌を捨てた場合",
-      tiles: [
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[3],
-        pai_ask_data.pinzu[1],
-        pai_ask_data.pinzu[1],
-        pai_ask_data.pinzu[1],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[0]
-      ]
-    },
-    {
-      title: "四槓散了(スーカンナガレ)",
-      description: "複数のプレイヤーにより合計四回以上の槓子が行われた場合",
-      tiles: [
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[3],
-        pai_ask_data.pinzu[1],
-        pai_ask_data.pinzu[1],
-        pai_ask_data.pinzu[1],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[0]
-      ]
-    },
-
-    {
       title: "九種九牌(チューシュクチューハイ)",
       description:
         "誰かの鳴きがない状態で親の配牌または子の最初のツモ時点で手牌の中に九種九牌がある場合",
@@ -1174,24 +1132,18 @@ export const yakuData: { [key: string]: Yaku[] } = {
       ]
     },
     {
+      title: "四風連打(スーフーレンダ)",
+      description:
+        "誰の鳴きも入らずに全てのプレイヤーが最初の打牌で同じ風牌を捨てた場合"
+    },
+    {
+      title: "四槓散了(スーカンナガレ)",
+      description: "複数のプレイヤーにより合計四回以上の槓子が行われた場合"
+    },
+
+    {
       title: "四家立直(スーカーリーチ)",
-      description: "全てのプレイヤーが立直を行った場合",
-      tiles: [
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[3],
-        pai_ask_data.pinzu[1],
-        pai_ask_data.pinzu[1],
-        pai_ask_data.pinzu[1],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[0]
-      ]
+      description: "全てのプレイヤーが立直を行った場合"
     }
   ]
 }
