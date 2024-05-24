@@ -71,7 +71,7 @@ export const yakuData: { [key: string]: Yaku[] } = {
     },
     {
       title: "役牌：自風牌",
-      description: "自分位置と同じ風牌で和了すること",
+      description: "自分位置と同じ風牌で槓子もしくは刻子で和了すること",
       tiles: [
         pai_ask_data.manzu[2],
         pai_ask_data.manzu[3],
@@ -93,20 +93,20 @@ export const yakuData: { [key: string]: Yaku[] } = {
       title: "役牌：場風牌",
       description: "場風牌で和了すること",
       tiles: [
-        pai_ask_data.manzu[2],
         pai_ask_data.manzu[3],
+        pai_ask_data.manzu[3],
+        pai_ask_data.manzu[4],
+        pai_ask_data.manzu[4],
         pai_ask_data.manzu[4],
         pai_ask_data.manzu[5],
         pai_ask_data.manzu[6],
         pai_ask_data.manzu[7],
+        pai_ask_data.souzu[2],
+        pai_ask_data.souzu[3],
+        pai_ask_data.souzu[4],
         pai_ask_data.honor[0],
         pai_ask_data.honor[0],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[1],
-        pai_ask_data.honor[1],
-        pai_ask_data.honor[1],
-        pai_ask_data.honor[2],
-        pai_ask_data.honor[2]
+        pai_ask_data.honor[0]
       ]
     },
     {
@@ -122,9 +122,9 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.honor[0],
         pai_ask_data.honor[0],
         pai_ask_data.honor[0],
-        pai_ask_data.honor[1],
-        pai_ask_data.honor[1],
-        pai_ask_data.honor[1],
+        pai_ask_data.honor[4],
+        pai_ask_data.honor[4],
+        pai_ask_data.honor[4],
         pai_ask_data.honor[2],
         pai_ask_data.honor[2]
       ]
@@ -142,12 +142,12 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.manzu[7],
         pai_ask_data.pinzu[2],
         pai_ask_data.pinzu[3],
-        pai_ask_data.pinzu[4],
         pai_ask_data.honor[0],
         pai_ask_data.honor[0],
         pai_ask_data.honor[1],
-        pai_ask_data.honor[1],
-        pai_ask_data.honor[1]
+        pai_ask_data.manzu[8],
+        pai_ask_data.manzu[8],
+        pai_ask_data.pinzu[4]
       ]
     },
 
@@ -155,20 +155,20 @@ export const yakuData: { [key: string]: Yaku[] } = {
       title: "一盃口(イーペーコウ)",
       description: "同種同数の順子が二組あること",
       tiles: [
+        pai_ask_data.souzu[2],
+        pai_ask_data.souzu[2],
+        pai_ask_data.souzu[3],
+        pai_ask_data.souzu[3],
+        pai_ask_data.souzu[4],
+        pai_ask_data.souzu[4],
+        pai_ask_data.manzu[2],
+        pai_ask_data.manzu[2],
         pai_ask_data.manzu[2],
         pai_ask_data.manzu[3],
         pai_ask_data.manzu[4],
         pai_ask_data.manzu[5],
-        pai_ask_data.manzu[6],
-        pai_ask_data.manzu[7],
-        pai_ask_data.pinzu[2],
-        pai_ask_data.pinzu[3],
-        pai_ask_data.pinzu[4],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[1],
-        pai_ask_data.honor[1],
-        pai_ask_data.honor[1]
+        pai_ask_data.honor[4],
+        pai_ask_data.honor[4]
       ]
     },
     {
@@ -195,60 +195,60 @@ export const yakuData: { [key: string]: Yaku[] } = {
       title: "海底摸月(ハイテイモツイ)",
       description: "最後の牌をツモ和了すること",
       tiles: [
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[4],
-        pai_ask_data.manzu[5],
-        pai_ask_data.manzu[6],
-        pai_ask_data.manzu[7],
+        pai_ask_data.souzu[2],
+        pai_ask_data.souzu[3],
+        pai_ask_data.souzu[4],
+        pai_ask_data.souzu[5],
+        pai_ask_data.souzu[6],
+        pai_ask_data.souzu[7],
         pai_ask_data.pinzu[2],
         pai_ask_data.pinzu[3],
         pai_ask_data.pinzu[4],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[1],
-        pai_ask_data.honor[1],
-        pai_ask_data.honor[1]
+        pai_ask_data.honor[3],
+        pai_ask_data.honor[3],
+        pai_ask_data.honor[5],
+        pai_ask_data.honor[5],
+        pai_ask_data.honor[5]
       ]
     },
     {
       title: "河底撈魚(ホウテイ)",
       description: "最後の牌をロン和了すること",
       tiles: [
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[3],
         pai_ask_data.manzu[4],
         pai_ask_data.manzu[5],
         pai_ask_data.manzu[6],
-        pai_ask_data.manzu[7],
-        pai_ask_data.pinzu[2],
-        pai_ask_data.pinzu[3],
-        pai_ask_data.pinzu[4],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[1],
-        pai_ask_data.honor[1],
-        pai_ask_data.honor[1]
+        pai_ask_data.manzu[8],
+        pai_ask_data.manzu[8],
+        pai_ask_data.manzu[8],
+        pai_ask_data.pinzu[1],
+        pai_ask_data.pinzu[1],
+        pai_ask_data.pinzu[1],
+        pai_ask_data.honor[2],
+        pai_ask_data.honor[2],
+        pai_ask_data.honor[2],
+        pai_ask_data.honor[3],
+        pai_ask_data.honor[3]
       ]
     },
     {
       title: "一発",
       description: "立直をかけた後、誰の鳴きもなく一巡目で和了すること",
       tiles: [
-        pai_ask_data.manzu[2],
+        pai_ask_data.souzu[2],
+        pai_ask_data.souzu[3],
+        pai_ask_data.souzu[4],
+        pai_ask_data.souzu[5],
+        pai_ask_data.souzu[6],
+        pai_ask_data.souzu[7],
+        pai_ask_data.pinzu[2],
+        pai_ask_data.pinzu[2],
+        pai_ask_data.pinzu[2],
         pai_ask_data.manzu[3],
         pai_ask_data.manzu[4],
         pai_ask_data.manzu[5],
-        pai_ask_data.manzu[6],
         pai_ask_data.manzu[7],
-        pai_ask_data.pinzu[2],
-        pai_ask_data.pinzu[3],
-        pai_ask_data.pinzu[4],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[1],
-        pai_ask_data.honor[1],
-        pai_ask_data.honor[1]
+        pai_ask_data.manzu[7]
       ]
     },
     {
