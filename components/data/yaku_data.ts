@@ -624,50 +624,32 @@ export const yakuData: { [key: string]: Yaku[] } = {
     {
       title: "流し満貫(ナガシマンカン)",
       description:
-        "自分が捨てた牌が全て断么牌で他に一枚もポン、チー、カンされていない状態で和了すること",
-      tiles: [
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[4],
-        pai_ask_data.manzu[5],
-        pai_ask_data.manzu[6],
-        pai_ask_data.manzu[7],
-        pai_ask_data.manzu[8],
-        pai_ask_data.manzu[8],
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[4],
-        pai_ask_data.manzu[5]
-      ]
+        "自分が捨てた牌が全て断么牌で他に一枚もポン、チー、カンされていない状態で和了すること"
     },
     {
       title: "ローカル役:一筒模月(イーピンモツイ)",
       description: "海底で引いたツモが一筒で和了すること",
       tiles: [
-        pai_ask_data.pinzu[1],
-        pai_ask_data.pinzu[1],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[4],
-        pai_ask_data.manzu[5],
-        pai_ask_data.manzu[6],
-        pai_ask_data.manzu[7],
-        pai_ask_data.manzu[8],
-        pai_ask_data.manzu[8],
+        pai_ask_data.manzu[0],
         pai_ask_data.manzu[1],
         pai_ask_data.manzu[2],
         pai_ask_data.manzu[3],
         pai_ask_data.manzu[4],
-        pai_ask_data.manzu[5]
+        pai_ask_data.manzu[5],
+        pai_ask_data.manzu[7],
+        pai_ask_data.manzu[7],
+        pai_ask_data.manzu[7],
+        pai_ask_data.manzu[8],
+        pai_ask_data.manzu[8],
+        pai_ask_data.manzu[8],
+        pai_ask_data.souzu[0],
+        pai_ask_data.souzu[0]
       ]
     },
     {
       title: "ローカル役:九筒撈魚(チュウピンラオユイ)",
       description: "河底で打牌された九筒でロン和了すること",
       tiles: [
-        pai_ask_data.pinzu[8],
-        pai_ask_data.pinzu[8],
         pai_ask_data.manzu[3],
         pai_ask_data.manzu[4],
         pai_ask_data.manzu[5],
@@ -677,9 +659,11 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.manzu[8],
         pai_ask_data.manzu[1],
         pai_ask_data.manzu[2],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[4],
-        pai_ask_data.manzu[5]
+        pai_ask_data.pinzu[3],
+        pai_ask_data.pinzu[4],
+        pai_ask_data.pinzu[5],
+        pai_ask_data.souzu[8],
+        pai_ask_data.souzu[8]
       ]
     }
   ],
@@ -1147,3 +1131,6 @@ export const yakuData: { [key: string]: Yaku[] } = {
     }
   ]
 }
+
+//todo
+//満貫　役満　ダブル役満
