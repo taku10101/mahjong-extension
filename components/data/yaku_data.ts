@@ -670,77 +670,45 @@ export const yakuData: { [key: string]: Yaku[] } = {
   5: [
     {
       title: "天和(テンホウ)",
-      description: "親の最初の配牌時点で和了すること",
-      tiles: [
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[4],
-        pai_ask_data.manzu[5],
-        pai_ask_data.manzu[6],
-        pai_ask_data.manzu[7],
-        pai_ask_data.manzu[8],
-        pai_ask_data.manzu[8],
-        pai_ask_data.manzu[8],
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[1]
-      ]
+      description: "親の最初の配牌時点で和了すること"
     },
     {
       title: "地和(チーホウ)",
-      description: "子が配牌時点で聴牌し、誰も鳴きに入らないで和了すること",
-      tiles: [
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[4],
-        pai_ask_data.manzu[5],
-        pai_ask_data.manzu[6],
-        pai_ask_data.manzu[7],
-        pai_ask_data.manzu[8],
-        pai_ask_data.manzu[8],
-        pai_ask_data.manzu[8],
-        pai_ask_data.manzu[8]
-      ]
+      description: "子が配牌時点で聴牌し、誰も鳴きに入らないで和了すること"
     },
     {
       title: "大三元(ダイサンゲン)",
       description: "白、發、中の刻子(槓子)を作り和了すること",
       tiles: [
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[3],
-        pai_ask_data.pinzu[1],
-        pai_ask_data.pinzu[1],
-        pai_ask_data.pinzu[1],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[0]
+        pai_ask_data.manzu[4],
+        pai_ask_data.manzu[4],
+        pai_ask_data.manzu[4],
+        pai_ask_data.honor[4],
+        pai_ask_data.honor[4],
+        pai_ask_data.honor[4],
+        pai_ask_data.honor[5],
+        pai_ask_data.honor[5],
+        pai_ask_data.honor[5],
+        pai_ask_data.honor[6],
+        pai_ask_data.honor[6],
+        pai_ask_data.honor[6],
+        pai_ask_data.pinzu[4],
+        pai_ask_data.pinzu[4]
       ]
     },
     {
       title: "四暗刻(スーアンコウ)",
       description: "暗刻(槓子)を四つ作ること",
       tiles: [
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[3],
+        pai_ask_data.souzu[1],
+        pai_ask_data.souzu[1],
+        pai_ask_data.souzu[1],
+        pai_ask_data.souzu[2],
+        pai_ask_data.souzu[2],
+        pai_ask_data.souzu[2],
+        pai_ask_data.souzu[3],
+        pai_ask_data.souzu[3],
+        pai_ask_data.souzu[3],
         pai_ask_data.pinzu[1],
         pai_ask_data.pinzu[1],
         pai_ask_data.pinzu[1],
@@ -770,22 +738,22 @@ export const yakuData: { [key: string]: Yaku[] } = {
     },
     {
       title: "緑一色(リューイーソー)",
-      description: "二、三、四、六、八索のみで和了すること",
+      description: "二、三、四、六、八索、發のみで和了すること",
       tiles: [
+        pai_ask_data.souzu[1],
+        pai_ask_data.souzu[1],
+        pai_ask_data.souzu[1],
         pai_ask_data.souzu[2],
         pai_ask_data.souzu[2],
         pai_ask_data.souzu[2],
-        pai_ask_data.souzu[3],
-        pai_ask_data.souzu[3],
-        pai_ask_data.souzu[3],
+        pai_ask_data.souzu[5],
+        pai_ask_data.souzu[5],
+        pai_ask_data.souzu[5],
+        pai_ask_data.souzu[7],
+        pai_ask_data.souzu[7],
         pai_ask_data.souzu[4],
-        pai_ask_data.souzu[4],
-        pai_ask_data.souzu[4],
-        pai_ask_data.souzu[6],
-        pai_ask_data.souzu[6],
-        pai_ask_data.souzu[6],
-        pai_ask_data.souzu[8],
-        pai_ask_data.souzu[8]
+        pai_ask_data.honor[4],
+        pai_ask_data.honor[4]
       ]
     },
     {
@@ -813,39 +781,39 @@ export const yakuData: { [key: string]: Yaku[] } = {
       description: "断么牌と一九牌のみで和了すること",
       tiles: [
         pai_ask_data.manzu[0],
-        pai_ask_data.manzu[0],
-        pai_ask_data.manzu[0],
-        pai_ask_data.manzu[8],
-        pai_ask_data.manzu[8],
         pai_ask_data.manzu[8],
         pai_ask_data.pinzu[0],
-        pai_ask_data.pinzu[0],
-        pai_ask_data.pinzu[0],
+        pai_ask_data.pinzu[8],
         pai_ask_data.souzu[0],
-        pai_ask_data.souzu[0],
-        pai_ask_data.souzu[0],
+        pai_ask_data.souzu[8],
         pai_ask_data.honor[0],
-        pai_ask_data.honor[0]
+        pai_ask_data.honor[1],
+        pai_ask_data.honor[2],
+        pai_ask_data.honor[3],
+        pai_ask_data.honor[4],
+        pai_ask_data.honor[5],
+        pai_ask_data.honor[5],
+        pai_ask_data.honor[6]
       ]
     },
     {
       title: "小四喜(ショーシー)",
       description: "東西南北の刻子(槓子)を作りうち一種を雀頭にして和了すること",
       tiles: [
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[1],
+        pai_ask_data.manzu[0],
         pai_ask_data.manzu[1],
         pai_ask_data.manzu[2],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[3],
-        pai_ask_data.pinzu[1],
-        pai_ask_data.pinzu[1],
-        pai_ask_data.pinzu[1],
         pai_ask_data.honor[0],
-        pai_ask_data.honor[0]
+        pai_ask_data.honor[0],
+        pai_ask_data.honor[0],
+        pai_ask_data.honor[1],
+        pai_ask_data.honor[1],
+        pai_ask_data.honor[1],
+        pai_ask_data.honor[2],
+        pai_ask_data.honor[2],
+        pai_ask_data.honor[2],
+        pai_ask_data.honor[3],
+        pai_ask_data.honor[3]
       ]
     },
     {
@@ -871,7 +839,7 @@ export const yakuData: { [key: string]: Yaku[] } = {
 
     {
       title: "九蓮宝燈(チューレンポウトウ)",
-      description: "一種の牌で1112345678999を作り和了すること",
+      description: "一種の牌で1112345678999+?を作り和了すること",
       tiles: [
         pai_ask_data.manzu[0],
         pai_ask_data.manzu[0],
@@ -883,7 +851,7 @@ export const yakuData: { [key: string]: Yaku[] } = {
         pai_ask_data.manzu[5],
         pai_ask_data.manzu[6],
         pai_ask_data.manzu[7],
-        pai_ask_data.manzu[8],
+        pai_ask_data.manzu[7],
         pai_ask_data.manzu[8],
         pai_ask_data.manzu[8],
         pai_ask_data.manzu[8]
@@ -891,62 +859,46 @@ export const yakuData: { [key: string]: Yaku[] } = {
     },
     {
       title: "ローカル役;人和(レンホウ)",
-      description: "子が自身の第一ツモ以前にロン完了すること",
-      tiles: [
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[3],
-        pai_ask_data.pinzu[1],
-        pai_ask_data.pinzu[1],
-        pai_ask_data.pinzu[1],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[0]
-      ]
+      description: "子が自身の第一ツモ以前にロン完了すること"
     },
     {
       title: "ローカル役:大車輪(ダイシャリン)",
       description: "門前で2〜8の筒子のみで対子を7組作り和了すること",
       tiles: [
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[4],
-        pai_ask_data.manzu[5],
-        pai_ask_data.manzu[6],
-        pai_ask_data.manzu[7],
-        pai_ask_data.manzu[8],
-        pai_ask_data.manzu[8],
-        pai_ask_data.pinzu[1],
-        pai_ask_data.pinzu[2],
-        pai_ask_data.pinzu[3],
-        pai_ask_data.pinzu[4],
-        pai_ask_data.pinzu[5]
+        pai_ask_data.souzu[1],
+        pai_ask_data.souzu[1],
+        pai_ask_data.souzu[2],
+        pai_ask_data.souzu[2],
+        pai_ask_data.souzu[3],
+        pai_ask_data.souzu[3],
+        pai_ask_data.souzu[4],
+        pai_ask_data.souzu[4],
+        pai_ask_data.souzu[5],
+        pai_ask_data.souzu[5],
+        pai_ask_data.souzu[6],
+        pai_ask_data.souzu[6],
+        pai_ask_data.souzu[7],
+        pai_ask_data.souzu[7]
       ]
     },
     {
       title: "ローカル役:大竹林(ダイチクリン)",
       description: "門前で2〜8の索子のみで対子を7組作り和了すること",
       tiles: [
-        pai_ask_data.manzu[1],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[4],
-        pai_ask_data.manzu[5],
-        pai_ask_data.manzu[6],
-        pai_ask_data.manzu[7],
-        pai_ask_data.manzu[8],
-        pai_ask_data.manzu[8],
+        pai_ask_data.souzu[1],
         pai_ask_data.souzu[1],
         pai_ask_data.souzu[2],
+        pai_ask_data.souzu[2],
+        pai_ask_data.souzu[3],
         pai_ask_data.souzu[3],
         pai_ask_data.souzu[4],
-        pai_ask_data.souzu[5]
+        pai_ask_data.souzu[4],
+        pai_ask_data.souzu[5],
+        pai_ask_data.souzu[5],
+        pai_ask_data.souzu[6],
+        pai_ask_data.souzu[6],
+        pai_ask_data.souzu[7],
+        pai_ask_data.souzu[7]
       ]
     },
     {
@@ -954,19 +906,19 @@ export const yakuData: { [key: string]: Yaku[] } = {
       description: "門前で2〜8の萬子のみで対子を7組作り和了すること",
       tiles: [
         pai_ask_data.manzu[1],
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[4],
-        pai_ask_data.manzu[5],
-        pai_ask_data.manzu[6],
-        pai_ask_data.manzu[7],
-        pai_ask_data.manzu[8],
-        pai_ask_data.manzu[8],
         pai_ask_data.manzu[1],
         pai_ask_data.manzu[2],
+        pai_ask_data.manzu[2],
+        pai_ask_data.manzu[3],
         pai_ask_data.manzu[3],
         pai_ask_data.manzu[4],
-        pai_ask_data.manzu[5]
+        pai_ask_data.manzu[4],
+        pai_ask_data.manzu[5],
+        pai_ask_data.manzu[5],
+        pai_ask_data.manzu[6],
+        pai_ask_data.manzu[6],
+        pai_ask_data.manzu[7],
+        pai_ask_data.manzu[7]
       ]
     },
     {
@@ -974,20 +926,20 @@ export const yakuData: { [key: string]: Yaku[] } = {
       description:
         "ダブルリーチした状態かつ、海底模月または河底撈魚を複合して和了すること",
       tiles: [
-        pai_ask_data.manzu[2],
-        pai_ask_data.manzu[3],
-        pai_ask_data.manzu[4],
-        pai_ask_data.manzu[5],
-        pai_ask_data.manzu[6],
-        pai_ask_data.manzu[7],
-        pai_ask_data.pinzu[2],
+        pai_ask_data.manzu[1],
+        pai_ask_data.manzu[1],
+        pai_ask_data.manzu[1],
         pai_ask_data.pinzu[3],
         pai_ask_data.pinzu[4],
+        pai_ask_data.pinzu[5],
+        pai_ask_data.souzu[2],
+        pai_ask_data.souzu[2],
+        pai_ask_data.souzu[2],
+        pai_ask_data.souzu[8],
+        pai_ask_data.souzu[8],
+        pai_ask_data.souzu[8],
         pai_ask_data.honor[0],
-        pai_ask_data.honor[0],
-        pai_ask_data.honor[1],
-        pai_ask_data.honor[1],
-        pai_ask_data.honor[1]
+        pai_ask_data.honor[0]
       ]
     }
   ],
@@ -1133,4 +1085,4 @@ export const yakuData: { [key: string]: Yaku[] } = {
 }
 
 //todo
-//満貫　役満　ダブル役満
+//役満　ダブル役満
